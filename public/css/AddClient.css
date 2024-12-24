@@ -1,0 +1,236 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.tab-container {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+/* Tag Input Styles */
+.tag-input {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.tag-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+#tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#tags-container .tag {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+}
+
+#tags-container .tag .remove-tag {
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+/* Contact Information Styles */
+.contact-info-form {
+    margin-top: 20px;
+}
+
+#phone-numbers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.phone-number {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.add-btn, .remove-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.remove-btn {
+    background-color: #dc3545;
+}
+
+.remove-btn:hover {
+    background-color: #a71d2a;
+}
+
+
+/* Location Information Styles */
+.location-info-form .form-group {
+    margin-bottom: 15px;
+}
+
+.location-info-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.location-info-form input,
+.location-info-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.location-info-form textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.location-info-form .submit-btn {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.location-info-form .submit-btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* Operation Information Styles */
+.operation-info-form .form-group {
+    margin-bottom: 15px;
+}
+
+.operation-info-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.operation-info-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.operation-info-form #services-container,
+.operation-info-form #brands-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.operation-info-form #services-container .item,
+.operation-info-form #brands-container .item {
+    display: inline-block;
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    position: relative;
+}
+
+.operation-info-form #services-container .item .remove-item,
+.operation-info-form #brands-container .item .remove-item {
+    margin-left: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
